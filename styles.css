@@ -1,0 +1,111 @@
+/* RESET - Quita los márgenes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS GENERALES */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* HEADER - Encabezado */
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* MAIN - Contenido */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* PRODUCTOS */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.producto-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.producto-icono {
+    font-size: 4rem;
+}
+
+.producto-card h3 {
+    margin: 10px 0;
+}
+
+.precio {
+    color: #667eea;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.producto-card button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.producto-card button:hover {
+    background: #764ba2;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
