@@ -1,5 +1,5 @@
 // ========== CARRITO ==========
-let carrito = [];
+let carrito = []; 
 
 // ========== AGREGAR PRODUCTO AL CARRITO ==========
 function agregarAlCarrito(id) {
